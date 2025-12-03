@@ -2,7 +2,7 @@
 import streamlit as st
 
 def get_number_input(label):
-    return st.number_input(label,value=None,step=0.1,format="%.2f",key=key,placeholder="0.00")
+    return st.number_input(label, value=0.0, step=0.1, format="%.2f")
 
 def get_operator_input(label):
     valid_operators = ['+', '-', '*', '/', '%']
